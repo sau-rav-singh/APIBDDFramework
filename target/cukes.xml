@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.401">
+    <testcase classname="Validating Add Place API" name="Verify Add Place functionality is able to add a new place to the application" time="0.131">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Add Place payload.....................................................undefined
+When User calls "ADDPLACE" API with POST HTTP request.......................skipped
+Then the API call is sucessfull with status as "200"........................skipped
+And "Status" in response body is "OK".......................................skipped
+And "Scope" in response body is "APP".......................................skipped
+]]></failure>
+    </testcase>
+</testsuite>

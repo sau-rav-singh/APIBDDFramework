@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-24T14:15:42.896Z",
+        "line": 3,
+        "name": "Verify Add Place functionality is able to add a new place to the application",
+        "description": "",
+        "id": "validating-add-place-api;verify-add-place-functionality-is-able-to-add-a-new-place-to-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Add Place payload",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User calls \"ADDPLACE\" API with POST HTTP request",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the API call is sucessfull with status as \"200\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "\"Status\" in response body is \"OK\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"Scope\" in response body is \"APP\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Add Place API",
+    "description": "",
+    "id": "validating-add-place-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeValidation.feature",
+    "tags": []
+  }
+]
